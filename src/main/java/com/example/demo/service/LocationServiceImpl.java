@@ -11,7 +11,7 @@ import com.example.demo.repository.LocationRepository;
 @Service
 public class LocationServiceImpl implements LocationService{
    @Autowired 
-   LocationRepository Locationrepo;
+     LocationRepository Locationrepo;
    @Override
    public LocationEntity createlocation(LocationEntity le){
         return Locationrepo.save(le);
